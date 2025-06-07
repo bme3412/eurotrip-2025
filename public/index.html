@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic + Iceland Summer Travel 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Trip Timeline -->
+        <div class="section">
+            <div class="trip-timeline" id="main-timeline"></div>
+        </div>
+
+        <!-- Planning Checklist -->
+        <div class="section">
+            <h2>✈️ Planning Checklist</h2>
+            <div class="checklists-container">
+                <div>
+                    <h3>Flights to Book</h3>
+                    <ul class="checklist" id="flights-checklist">
+                        <!-- Flights will be populated here -->
+                    </ul>
+                </div>
+                <div>
+                    <h3>Accommodations to Book</h3>
+                    <ul class="checklist" id="accommodations-checklist">
+                        <!-- Accommodations will be populated here -->
+                    </ul>
+                </div>
+                <div>
+                    <h3>Tours & Activities to Pre-Book</h3>
+                    <ul class="checklist" id="tours-checklist">
+                        <!-- Tours will be populated here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Simple Modal -->
+    <div id="dayModal" class="modal">
+        <div class="modal-content itinerary-modal">
+            <div class="modal-header">
+                <div class="modal-title-wrapper">
+                    <h2 id="modalTitle" class="modal-title"></h2>
+                    <span id="modalSubtitle" class="modal-subtitle"></span>
+                </div>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Clear any cached localStorage data that might contain old dates
+        localStorage.clear();
+    </script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html> 

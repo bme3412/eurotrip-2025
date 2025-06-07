@@ -1,0 +1,963 @@
+{
+  "overview": {
+    "title": "Nordic + Iceland Summer Travel",
+    "subtitle": "June 20 - July 6, 2025 • 17 Days • 6 Countries",
+    "totalDays": 17,
+    "countries": 6,
+    "startDate": "2025-06-20",
+    "endDate": "2025-07-06"
+  },
+  
+  "reference": {
+    "countries": {
+      "france": {
+        "colors": ["#000091", "#FFFFFF", "#E1000F"]
+      },
+      "iceland": {
+        "colors": ["#003897", "#FFFFFF", "#D72828"]
+      },
+      "norway": {
+        "colors": ["#BA0C2F", "#FFFFFF", "#00205B"]
+      },
+      "denmark": {
+        "colors": ["#C8102E", "#FFFFFF"]
+      },
+      "sweden": {
+        "colors": ["#005583", "#FFC200"]
+      },
+      "finland": {
+        "colors": ["#FFFFFF", "#003580"]
+      }
+    }
+  },
+  
+  "timeline": {
+    "2025-06-20": { 
+      "type": "travel", 
+      "activity": "Boston → Paris (night flight)", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "BOS → CDG",
+      "fromFlag": "🇺🇸",
+      "toFlag": "🇫🇷",
+      "detailTitle": "Departure Day - June 20th",
+      "location": "Boston Logan (BOS) → Paris Charles de Gaulle (CDG)",
+      "flightDetails": {
+        "departure": "Boston Logan International Airport (BOS)",
+        "arrival": "Paris Charles de Gaulle Airport (CDG)",
+        "flightTime": "~7 hours overnight",
+        "timeChange": "+6 hours ahead",
+        "arrivalDate": "June 21st morning"
+      },
+      "activities": [
+        "🧳 Final packing check - travel documents, chargers, medications",
+        "📱 Download offline maps for Paris",
+        "✈️ Check-in online 24 hours before departure",
+        "🚗 Arrange transportation to Logan Airport",
+        "🌙 Overnight transatlantic flight - try to sleep on plane",
+        "⏰ Set watch to Paris time during flight"
+      ]
+    },
+    "2025-06-21": { 
+      "type": "france", 
+      "activity": "Arrive & Explore", 
+      "city": "Paris", 
+      "flag": "🇫🇷",
+      "details": "Check-in • Local area",
+      "detailTitle": "Arrival in Paris - June 21st",
+      "location": "Paris, France 🇫🇷",
+      "scheduledActivities": [
+        {
+          "time": "8:30 AM",
+          "activity": "Land at Charles de Gaulle Airport (CDG)",
+          "icon": "🛬",
+          "duration": "Arrival",
+          "location": "Terminal 2E, CDG Airport"
+        },
+        {
+          "time": "9:30 AM", 
+          "activity": "Take RER B train to central Paris",
+          "icon": "🚄",
+          "duration": "45 minutes",
+          "location": "CDG → Châtelet-Les Halles"
+        },
+        {
+          "time": "11:00 AM",
+          "activity": "Check into hotel & freshen up",
+          "icon": "🏨", 
+          "duration": "30 minutes",
+          "location": "Hotel des Grands Boulevards"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "First French meal - café lunch",
+          "icon": "🥐",
+          "duration": "1 hour",
+          "location": "Café nearby hotel"
+        },
+        {
+          "time": "2:00 PM",
+          "activity": "Light neighborhood exploration",
+          "icon": "🚶‍♂️",
+          "duration": "2 hours", 
+          "location": "Grands Boulevards area"
+        },
+        {
+          "time": "6:00 PM",
+          "activity": "Early dinner & rest for jet lag",
+          "icon": "😴",
+          "duration": "Evening",
+          "location": "Hotel area"
+        }
+      ],
+      "detailSections": [
+        {
+          "title": "Accommodation",
+          "items": [
+            "🏨 Hotel des Grands Boulevards",
+            "📍 17 Boulevard Poissonnière, 75002 Paris, France",
+            "⏰ Check-in: 3:00 PM (early check-in available)",
+            "🌙 2 nights (June 21-23)",
+            "⭐ Area: 2nd Arrondissement - walking distance to Louvre & Opéra"
+          ]
+        },
+        {
+          "title": "Activities",
+          "items": [
+            "🛬 Arrive at Charles de Gaulle Airport from overnight flight",
+            "🚄 Navigate RER B train system to central Paris",
+            "🏨 Check into boutique hotel in 2nd arrondissement",
+            "💶 Find ATM and exchange money for euros", 
+            "🗺️ Get oriented with neighborhood map and metro system",
+            "🥐 Experience first authentic French café culture",
+            "🚶‍♂️ Gentle walk around Grands Boulevards area",
+            "😴 Early rest to combat jet lag and prepare for tomorrow",
+            "📱 Connect to hotel WiFi and update family on arrival"
+          ]
+        },
+        {
+          "title": "Tips",
+          "items": [
+            "RER B train runs every 10-15 minutes from CDG",
+            "Hotel is 3-minute walk from Grands Boulevards metro station", 
+            "Many cafés close 3-7 PM, plan lunch timing accordingly",
+            "Keep first day light due to 6-hour time difference"
+          ]
+        }
+      ]
+    },
+    "2025-06-22": { 
+      "type": "france", 
+      "activity": "Sightseeing", 
+      "city": "Paris", 
+      "flag": "🇫🇷",
+      "details": "Louvre • Eiffel Tower",
+      "detailTitle": "Paris Sightseeing - June 22nd",
+      "location": "Paris, France 🇫🇷",
+      "accommodation": {
+        "name": "Hotel des Grands Boulevards",
+        "address": "17 Boulevard Poissonnière, 75002 Paris, France",
+        "checkout": "11:00 AM (late checkout until 1 PM available)"
+      },
+      "scheduledActivities": [
+        {
+          "time": "8:30 AM",
+          "activity": "Breakfast at hotel",
+          "icon": "🥐",
+          "duration": "45 minutes",
+          "location": "Hotel dining room"
+        },
+        {
+          "time": "9:30 AM",
+          "activity": "Visit Louvre Museum",
+          "icon": "🏛️",
+          "duration": "3.5 hours",
+          "location": "Musée du Louvre, Rue de Rivoli",
+          "bookingRequired": true,
+          "ticketInfo": "Pre-booked timed entry at 9:30 AM"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "Lunch at Tuileries Garden",
+          "icon": "🥪",
+          "duration": "1 hour",
+          "location": "Loulou Restaurant, Tuileries Garden"
+        },
+        {
+          "time": "2:30 PM",
+          "activity": "Metro to Eiffel Tower",
+          "icon": "🚇",
+          "duration": "30 minutes",
+          "location": "Trocadéro or Bir-Hakeim station"
+        },
+        {
+          "time": "3:00 PM",
+          "activity": "Eiffel Tower visit",
+          "icon": "🗼",
+          "duration": "2 hours",
+          "location": "Champ de Mars, 5 Avenue Anatole France",
+          "ticketInfo": "Skip-the-line tickets to 2nd floor"
+        },
+        {
+          "time": "5:30 PM",
+          "activity": "Photos from Trocadéro",
+          "icon": "📸",
+          "duration": "30 minutes", 
+          "location": "Place du Trocadéro"
+        },
+        {
+          "time": "6:30 PM",
+          "activity": "Seine River cruise",
+          "icon": "🛥️",
+          "duration": "1 hour",
+          "location": "Port de la Bourdonnais (near Eiffel Tower)"
+        },
+        {
+          "time": "8:00 PM",
+          "activity": "Dinner in Saint-Germain",
+          "icon": "🍷",
+          "duration": "2 hours",
+          "location": "Le Procope, 13 Rue de l'Ancienne Comédie"
+        }
+      ],
+      "activities": {
+        "morning": [
+          "🏛️ Explore world's largest art museum at the Louvre",
+          "🎨 Marvel at Mona Lisa, Venus de Milo, and Winged Victory", 
+          "🖼️ Discover Egyptian antiquities and Renaissance masterpieces"
+        ],
+        "afternoon": [
+          "🗼 Ascend iconic Eiffel Tower to 2nd floor observation deck",
+          "📸 Capture perfect photos from Trocadéro gardens", 
+          "🛥️ Relax on scenic Seine River cruise with commentary"
+        ],
+        "evening": [
+          "🌆 Watch Eiffel Tower sparkle every hour after sunset",
+          "🍷 Enjoy traditional French dinner in historic Saint-Germain",
+          "🚶‍♂️ Evening stroll along illuminated Seine riverbanks"
+        ]
+      },
+      "attractions": [
+        {
+          "name": "Louvre Museum",
+          "address": "Rue de Rivoli, 75001 Paris",
+          "time": "9:30 AM - 1:00 PM",
+          "highlights": ["Mona Lisa", "Venus de Milo", "Egyptian antiquities", "Napoleon III Apartments"],
+          "cost": "€22 (pre-booked timed entry)",
+          "tips": "Use museum map app, see Mona Lisa early to avoid crowds"
+        },
+        {
+          "name": "Eiffel Tower",
+          "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris",
+          "time": "3:00 PM - 5:30 PM", 
+          "highlights": ["2nd floor panoramic views", "Iron lattice architecture", "Evening light show"],
+          "cost": "€29.40 (elevator to 2nd floor)",
+          "tips": "Book skip-the-line tickets online, sparkles every hour after dark"
+        }
+      ],
+      "transportation": [
+        {
+          "route": "Hotel → Louvre",
+          "method": "Metro Line 8/9",
+          "duration": "12 minutes",
+          "stations": "Grands Boulevards → Palais Royal"
+        },
+        {
+          "route": "Louvre → Eiffel Tower", 
+          "method": "Metro Line 6",
+          "duration": "20 minutes",
+          "stations": "Palais Royal → Bir-Hakeim"
+        }
+      ],
+      "tips": [
+        "Louvre is closed on Tuesdays - verify opening hours",
+        "Eiffel Tower sparkles for 5 minutes every hour after sunset",
+        "Seine cruises run every 30 minutes in summer",
+        "Book restaurant reservations in advance for dinner"
+      ]
+    },
+    "2025-06-23": { 
+      "type": "travel-france-sweden", 
+      "activity": "Paris → Stockholm", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "CDG → ARN",
+      "fromFlag": "🇫🇷",
+      "toFlag": "🇸🇪",
+      "detailTitle": "Travel Day: Paris → Stockholm",
+      "location": "Paris CDG → Stockholm Arlanda",
+      "flightDetails": {
+        "departure": "Paris Charles de Gaulle (CDG)",
+        "arrival": "Stockholm Arlanda Airport (ARN)",
+        "flightTime": "~2.5 hours",
+        "departureTime": "Morning departure (9-11 AM)",
+        "arrivalTime": "Early afternoon arrival"
+      },
+      "activities": [
+        "🏨 Check out of Paris hotel by 10 AM",
+        "🚄 Take RER B train to CDG Airport",
+        "✈️ Flight to Stockholm (2.5 hours)",
+        "🛬 Arrive at Stockholm Arlanda Airport",
+        "🚄 Take Arlanda Express to Stockholm Central (20 mins)",
+        "🏨 Check into Stockholm hotel",
+        "🌆 Evening stroll around Gamla Stan (Old Town)",
+        "🍽️ Welcome dinner at traditional Swedish restaurant"
+      ],
+      "schedule": {
+        "08:00": "Final packing and hotel checkout",
+        "09:00": "RER B train to CDG Airport",
+        "10:30": "Airport check-in and security",
+        "11:30": "Flight departure to Stockholm",
+        "14:00": "Arrive Stockholm (local time)",
+        "15:00": "Arlanda Express to city center",
+        "16:00": "Check into Stockholm hotel",
+        "17:30": "Explore Gamla Stan neighborhood",
+        "19:00": "Traditional Swedish dinner"
+      }
+    },
+    "2025-06-24": { 
+      "type": "sweden", 
+      "activity": "Gamla Stan", 
+      "city": "Stockholm", 
+      "flag": "🇸🇪",
+      "details": "Old Town • Södermalm",
+      "detailTitle": "Stockholm Old Town - June 24th",
+      "location": "Stockholm, Sweden 🇸🇪",
+      "accommodation": {
+        "name": "HTL Kungsgatan",
+        "address": "Kungsgatan 47, 111 56 Stockholm, Sweden",
+        "area": "Norrmalm - 5 minutes walk to Gamla Stan",
+        "amenities": ["Free WiFi", "Fitness Center", "Restaurant", "24h Reception"]
+      },
+      "scheduledActivities": [
+        {
+          "time": "9:00 AM",
+          "activity": "Swedish breakfast at hotel",
+          "icon": "🥐",
+          "duration": "45 minutes",
+          "location": "HTL Kungsgatan restaurant"
+        },
+        {
+          "time": "10:00 AM",
+          "activity": "Walk to Gamla Stan",
+          "icon": "🚶‍♂️",
+          "duration": "15 minutes",
+          "location": "Cross Riksbron bridge to Old Town"
+        },
+        {
+          "time": "10:30 AM",
+          "activity": "Royal Palace visit",
+          "icon": "👑",
+          "duration": "2 hours",
+          "location": "Kungliga Slottet, Gamla Stan",
+          "ticketInfo": "Combined ticket for all museums"
+        },
+        {
+          "time": "12:30 PM",
+          "activity": "Stockholm Cathedral",
+          "icon": "⛪",
+          "duration": "30 minutes",
+          "location": "Storkyrkan, Trångsund 1"
+        },
+        {
+          "time": "1:00 PM",
+          "activity": "Traditional Swedish lunch",
+          "icon": "🥪",
+          "duration": "1 hour",
+          "location": "Café Schweizer, Gamla Stan"
+        },
+        {
+          "time": "2:30 PM",
+          "activity": "Gamla Stan exploration",
+          "icon": "🏰",
+          "duration": "1.5 hours",
+          "location": "Cobblestone streets and artisan shops"
+        },
+        {
+          "time": "4:00 PM",
+          "activity": "Walk to Södermalm",
+          "icon": "🌉",
+          "duration": "20 minutes",
+          "location": "Cross Slussen bridge"
+        },
+        {
+          "time": "4:30 PM",
+          "activity": "Fika at trendy café",
+          "icon": "🍺",
+          "duration": "45 minutes",
+          "location": "Fotografiska Museum café"
+        },
+        {
+          "time": "6:00 PM",
+          "activity": "Monteliusvagen viewpoint",
+          "icon": "🌅",
+          "duration": "1 hour",
+          "location": "Best sunset views over Stockholm"
+        }
+      ],
+      "activities": {
+        "morning": [
+          "🏰 Wander through medieval cobblestone streets of Gamla Stan",
+          "👑 Explore Royal Palace with changing of the guard ceremony",
+          "⛪ Visit Stockholm's oldest church, Storkyrkan cathedral"
+        ],
+        "afternoon": [
+          "🎨 Browse unique artisan shops and galleries in Old Town",
+          "🥪 Experience authentic Swedish cuisine at historic café",
+          "🌉 Cross scenic bridges connecting Stockholm's islands"
+        ],
+        "evening": [
+          "🍺 Enjoy traditional fika with cinnamon buns and coffee",
+          "🌅 Watch stunning sunset from Monteliusvagen cliff viewpoint",
+          "📸 Capture panoramic views of Stockholm's archipelago"
+        ]
+      },
+      "attractions": [
+        {
+          "name": "Royal Palace (Kungliga Slottet)",
+          "address": "107 70 Stockholm, Sweden",
+          "time": "10:30 AM - 12:30 PM",
+          "highlights": ["Royal Apartments", "Treasury", "Gustav III's Museum", "Changing of Guard"],
+          "cost": "160 SEK (combined ticket)",
+          "tips": "Changing of guard at 12:15 PM on weekdays, 1:15 PM weekends"
+        },
+        {
+          "name": "Stockholm Cathedral (Storkyrkan)",
+          "address": "Trångsund 1, 111 29 Stockholm",
+          "time": "12:30 PM - 1:00 PM",
+          "highlights": ["Medieval architecture", "Royal weddings venue", "Silver altar"],
+          "cost": "60 SEK",
+          "tips": "Oldest church in Stockholm, dating from 13th century"
+        },
+        {
+          "name": "Monteliusvagen Viewpoint",
+          "address": "Monteliusvagen, Södermalm",
+          "time": "6:00 PM - 7:00 PM",
+          "highlights": ["Panoramic city views", "Perfect sunset spot", "Instagram-worthy photos"],
+          "cost": "Free",
+          "tips": "Best light for photos 1 hour before sunset"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Café Schweizer",
+          "address": "Österlånggatan 35, Gamla Stan",
+          "cuisine": "Traditional Swedish",
+          "specialties": ["Köttbullar (meatballs)", "Gravlax", "Princess cake"],
+          "priceRange": "200-350 SEK per person"
+        }
+      ],
+      "transportation": [
+        {
+          "route": "Hotel → Gamla Stan",
+          "method": "Walking",
+          "duration": "15 minutes",
+          "description": "Scenic walk across Riksbron bridge"
+        },
+        {
+          "route": "Gamla Stan → Södermalm",
+          "method": "Walking",
+          "duration": "20 minutes", 
+          "description": "Walk through Slussen area"
+        }
+      ],
+      "tips": [
+        "Gamla Stan can be crowded in summer - start early",
+        "Many shops close early on Sundays",
+        "Fika is serious business in Sweden - take time to enjoy it",
+        "Wear comfortable shoes for cobblestone streets"
+      ]
+    },
+    "2025-06-25": { 
+      "type": "sweden", 
+      "activity": "Museums", 
+      "city": "Stockholm", 
+      "flag": "🇸🇪",
+      "details": "Vasa • Djurgården",
+      "detailTitle": "Stockholm Museums - June 25th",
+      "location": "Djurgården Island, Stockholm 🇸🇪",
+      "activities": [
+        "🚢 Visit world-famous Vasa Museum",
+        "🏛️ Marvel at 17th-century warship",
+        "🚶‍♂️ Walk through beautiful Djurgården park",
+        "🎡 Optional visit to Gröna Lund amusement park",
+        "🏰 Skansen open-air museum and zoo",
+        "🎨 ABBA Museum (if interested)",
+        "🌳 Picnic lunch in Djurgården park",
+        "🍽️ Dinner at waterfront restaurant"
+      ],
+      "attractions": [
+        {
+          "name": "Vasa Museum",
+          "time": "9:00 AM - 12:00 PM",
+          "highlights": "98% original 17th-century warship, multimedia presentations"
+        },
+        {
+          "name": "Skansen",
+          "time": "1:00 PM - 5:00 PM",
+          "highlights": "Historic buildings, Nordic animals, traditional crafts"
+        }
+      ]
+    },
+    "2025-06-26": { 
+      "type": "travel-sweden-norway", 
+      "activity": "Stockholm → Oslo", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "ARN → OSL",
+      "fromFlag": "🇸🇪",
+      "toFlag": "🇳🇴",
+      "detailTitle": "Travel Day: Stockholm → Oslo",
+      "location": "Stockholm → Oslo",
+      "flightDetails": {
+        "departure": "Stockholm Arlanda (ARN)",
+        "arrival": "Oslo Gardermoen (OSL)",
+        "flightTime": "~1.5 hours",
+        "departureTime": "Afternoon departure",
+        "arrivalTime": "Evening arrival"
+      },
+      "activities": [
+        "🏨 Check out of Stockholm hotel",
+        "🚄 Arlanda Express to airport",
+        "✈️ Short flight to Oslo",
+        "🚄 Airport Express train to Oslo Central",
+        "🏨 Check into Oslo hotel",
+        "🌆 Evening walk around Karl Johans gate",
+        "🍽️ Norwegian dinner - try reindeer or salmon"
+      ]
+    },
+    "2025-06-27": { 
+      "type": "norway", 
+      "activity": "City Tour", 
+      "city": "Oslo", 
+      "flag": "🇳🇴",
+      "details": "Vigeland • Opera House",
+      "detailTitle": "Oslo City Exploration - June 27th",
+      "location": "Oslo, Norway 🇳🇴",
+      "activities": [
+        "🎨 Visit Vigeland Sculpture Park (200+ sculptures)",
+        "🏛️ Explore Oslo Opera House - walk on the roof",
+        "🏰 See Akershus Fortress and Castle",
+        "🚢 Viking Ship Museum or Fram Museum",
+        "🌊 Waterfront walk along Aker Brygge",
+        "🍽️ Lunch at traditional Norwegian restaurant",
+        "🌅 Sunset from Holmenkollen Ski Jump (optional)",
+        "🍺 Evening at local pub or brewery"
+      ],
+      "attractions": [
+        {
+          "name": "Vigeland Park",
+          "time": "9:00 AM - 12:00 PM",
+          "highlights": "Monolith sculpture, Angry Baby statue, 200+ nude sculptures"
+        },
+        {
+          "name": "Oslo Opera House",
+          "time": "2:00 PM - 4:00 PM",
+          "highlights": "Stunning architecture, panoramic city views"
+        }
+      ]
+    },
+    "2025-06-28": { 
+      "type": "travel-norway-denmark", 
+      "activity": "Oslo → Copenhagen", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "OSL → CPH",
+      "fromFlag": "🇳🇴",
+      "toFlag": "🇩🇰",
+      "detailTitle": "Travel Day: Oslo → Copenhagen",
+      "activities": [
+        "🏨 Check out of Oslo hotel",
+        "✈️ Flight to Copenhagen",
+        "🏨 Check into Copenhagen hotel",
+        "🚲 Get oriented with bike rental",
+        "🌆 Evening canal walk in Nyhavn"
+      ]
+    },
+    "2025-06-29": { 
+      "type": "denmark", 
+      "activity": "Bikes & Museums", 
+      "city": "Copenhagen", 
+      "flag": "🇩🇰",
+      "details": "Louisiana Museum",
+      "detailTitle": "Copenhagen Culture Day - June 29th",
+      "location": "Copenhagen, Denmark 🇩🇰",
+      "activities": [
+        "🚲 Bike tour of Copenhagen (very bike-friendly city)",
+        "🏛️ Visit Louisiana Museum of Modern Art (train to Humlebæk)",
+        "🌊 Enjoy art with sea views at Louisiana",
+        "🥪 Lunch at museum café overlooking Øresund",
+        "🚂 Train back to Copenhagen",
+        "🏰 Evening in colorful Nyhavn district",
+        "🍺 Danish beer at waterfront café"
+      ],
+      "attractions": [
+        {
+          "name": "Louisiana Museum",
+          "time": "10:00 AM - 4:00 PM",
+          "highlights": "Modern art, sculpture garden, sea views"
+        }
+      ]
+    },
+    "2025-06-30": { 
+      "type": "travel-denmark-norway", 
+      "activity": "Copenhagen → Bergen", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "CPH → BGO",
+      "fromFlag": "🇩🇰",
+      "toFlag": "🇳🇴",
+      "detailTitle": "Travel Day: Copenhagen → Bergen",
+      "activities": [
+        "🏨 Check out of Copenhagen hotel",
+        "✈️ Flight to Bergen, Norway",
+        "🏨 Check into Bergen hotel",
+        "🌧️ Explore Bergen despite potential rain",
+        "🎣 Evening at fish market and Bryggen wharf"
+      ]
+    },
+    "2025-07-01": { 
+      "type": "norway", 
+      "activity": "Fjord Tour", 
+      "city": "Bergen", 
+      "flag": "🇳🇴",
+      "details": "Norway in a Nutshell",
+      "detailTitle": "Norway in a Nutshell - July 1st",
+      "location": "Bergen → Fjords → Bergen",
+      "accommodation": {
+        "name": "Hotel Oleana",
+        "address": "Øvre Ole Bulls plass 5, 5012 Bergen, Norway",
+        "area": "City center - 2 minutes walk to train station",
+        "amenities": ["Free WiFi", "Breakfast", "Concierge", "Luggage Storage"]
+      },
+      "scheduledActivities": [
+        {
+          "time": "6:30 AM",
+          "activity": "Early breakfast & checkout",
+          "icon": "🥐",
+          "duration": "45 minutes",
+          "location": "Hotel Oleana restaurant"
+        },
+        {
+          "time": "7:30 AM",
+          "activity": "Train Bergen → Voss",
+          "icon": "🚂",
+          "duration": "1.5 hours",
+          "location": "Bergen Railway Station",
+          "ticketInfo": "Norway in a Nutshell combined ticket",
+          "notes": "Scenic mountain railway through valleys"
+        },
+        {
+          "time": "9:00 AM",
+          "activity": "Bus connection Voss → Gudvangen",
+          "icon": "🚌",
+          "duration": "1.25 hours",
+          "location": "Voss Bus Terminal",
+          "notes": "Dramatic hairpin bends and mountain views"
+        },
+        {
+          "time": "10:30 AM",
+          "activity": "Board Nærøyfjord ferry",
+          "icon": "🛥️",
+          "duration": "2 hours",
+          "location": "Gudvangen Ferry Terminal",
+          "notes": "UNESCO World Heritage fjord cruise"
+        },
+        {
+          "time": "12:30 PM",
+          "activity": "Arrive Flåm - lunch break",
+          "icon": "🍽️",
+          "duration": "2 hours",
+          "location": "Flåm village",
+          "restaurant": "Flåm Marina & Apartments restaurant"
+        },
+        {
+          "time": "2:55 PM",
+          "activity": "Famous Flåm Railway",
+          "icon": "🚂",
+          "duration": "1 hour",
+          "location": "Flåm → Myrdal",
+          "notes": "World's steepest train ride, 863m elevation"
+        },
+        {
+          "time": "4:00 PM",
+          "activity": "Connection train Myrdal → Bergen",
+          "icon": "🚂",
+          "duration": "2.5 hours",
+          "location": "Myrdal Station",
+          "notes": "High mountain plateau scenery"
+        },
+        {
+          "time": "6:30 PM",
+          "activity": "Arrive Bergen & dinner",
+          "icon": "🍽️",
+          "duration": "2 hours",
+          "location": "Fisketorget (Fish Market) area"
+        }
+      ],
+      "activities": {
+        "morning": [
+          "🚂 Experience scenic Bergen-Voss railway through dramatic valleys",
+          "🚌 Navigate thrilling hairpin mountain roads to Gudvangen",
+          "🛥️ Begin UNESCO World Heritage Nærøyfjord cruise"
+        ],
+        "afternoon": [
+          "🌊 Marvel at Europe's narrowest fjord surrounded by 1,800m peaks",
+          "🍽️ Enjoy traditional Norwegian lunch in picturesque Flåm village",
+          "🚂 Ride world's steepest railway with 20 tunnels and waterfalls"
+        ],
+        "evening": [
+          "🏔️ Cross high mountain plateau returning to Bergen",
+          "🍽️ Celebrate incredible day with fresh seafood dinner",
+          "📸 Process photos of one of world's most scenic train journeys"
+        ]
+      },
+      "schedule": {
+        "07:30": "Depart Bergen by train",
+        "09:00": "Arrive Voss, connect to bus",
+        "10:30": "Scenic bus ride through mountains",
+        "11:45": "Board ferry at Gudvangen",
+        "13:30": "Arrive Flåm, lunch break",
+        "15:00": "Famous Flåm Railway to Myrdal",
+        "16:00": "Connect to Bergen train at Myrdal",
+        "18:30": "Arrive back in Bergen"
+      },
+      "highlights": [
+        "Nærøyfjord - narrowest fjord in Europe at just 250m wide",
+        "Flåm Railway - 863m elevation gain in 20km, 1:18 gradient",
+        "Kjosfossen waterfall - spectacular 225m plunge",
+        "Dramatic transitions from sea level to 863m mountain plateau"
+      ],
+      "transportation": [
+        {
+          "segment": "Bergen → Voss",
+          "mode": "Train",
+          "duration": "1h 30m",
+          "operator": "Vy (Norwegian Railways)",
+          "scenery": "Mountains, valleys, waterfalls"
+        },
+        {
+          "segment": "Voss → Gudvangen", 
+          "mode": "Bus",
+          "duration": "1h 15m",
+          "operator": "Skyss/Tide",
+          "scenery": "Hairpin roads, mountain lakes"
+        },
+        {
+          "segment": "Gudvangen → Flåm",
+          "mode": "Ferry",
+          "duration": "2h",
+          "operator": "The Fjords",
+          "scenery": "UNESCO fjord, 1800m peaks"
+        },
+        {
+          "segment": "Flåm → Myrdal",
+          "mode": "Train",
+          "duration": "1h",
+          "operator": "Flåm Railway",
+          "scenery": "Steepest train, waterfalls"
+        },
+        {
+          "segment": "Myrdal → Bergen",
+          "mode": "Train", 
+          "duration": "2h 30m",
+          "operator": "Vy (Norwegian Railways)",
+          "scenery": "High plateau, mountain views"
+        }
+      ],
+      "costs": {
+        "norwegianNutshell": "1,290 NOK per person",
+        "lunch": "200-350 NOK",
+        "dinner": "400-600 NOK",
+        "total": "~1,900-2,250 NOK per person for the day"
+      },
+      "tips": [
+        "Book Norway in a Nutshell tickets in advance online",
+        "Sit on right side of train Bergen→Voss for best views",
+        "Bring layers - weather changes dramatically with elevation", 
+        "Ferry can be cold and windy - pack windproof jacket",
+        "Flåm Railway stops at Kjosfossen waterfall for photos",
+        "Download offline maps - cell service spotty in mountains"
+      ]
+    },
+    "2025-07-02": { 
+      "type": "travel-norway-iceland", 
+      "activity": "Bergen → Reykjavik", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "BGO → KEF",
+      "fromFlag": "🇳🇴",
+      "toFlag": "🇮🇸",
+      "detailTitle": "Travel Day: Bergen → Reykjavik",
+      "activities": [
+        "🏨 Check out of Bergen hotel",
+        "✈️ Flight to Keflavik Airport, Iceland",
+        "🚌 Flybus to Reykjavik city center",
+        "🏨 Check into Reykjavik accommodation",
+        "🌈 First taste of dramatic Icelandic landscapes",
+        "🍽️ Welcome dinner - try Icelandic lamb or fish"
+      ]
+    },
+    "2025-07-03": { 
+      "type": "iceland", 
+      "activity": "Golden Circle", 
+      "city": "Iceland", 
+      "flag": "🇮🇸",
+      "details": "Blue Lagoon Evening",
+      "detailTitle": "Golden Circle + Blue Lagoon - July 3rd",
+      "location": "Reykjavik → Golden Circle → Blue Lagoon",
+      "activities": [
+        "🌋 Þingvellir National Park (tectonic plates meeting)",
+        "💧 Geysir geothermal area (see Strokkur geyser erupt)",
+        "🌊 Gullfoss waterfall (Golden Falls)",
+        "🥪 Traditional Icelandic lunch",
+        "💎 Blue Lagoon geothermal spa (evening session)",
+        "🧖‍♀️ Silica mud mask treatment",
+        "🍹 Cocktail at Blue Lagoon bar",
+        "🚌 Return to Reykjavik hotel"
+      ],
+      "schedule": {
+        "08:00": "Depart Reykjavik for Golden Circle",
+        "09:30": "Þingvellir National Park",
+        "11:30": "Geysir geothermal area",
+        "13:00": "Gullfoss waterfall",
+        "14:00": "Lunch at countryside restaurant",
+        "16:00": "Blue Lagoon arrival and check-in",
+        "16:30": "Relax in geothermal waters",
+        "19:00": "Dinner at Blue Lagoon restaurant",
+        "21:00": "Return to Reykjavik"
+      },
+      "highlights": [
+        "Stand between North American and Eurasian tectonic plates",
+        "Watch Strokkur geyser erupt every 5-10 minutes",
+        "Feel the power of Gullfoss two-tier waterfall",
+        "Relax in 37-39°C geothermal waters at Blue Lagoon"
+      ]
+    },
+    "2025-07-04": { 
+      "type": "iceland", 
+      "activity": "South Coast", 
+      "city": "Iceland", 
+      "flag": "🇮🇸",
+      "details": "Lupine Flowers",
+      "detailTitle": "South Coast Adventure - July 4th",
+      "location": "Reykjavik → South Coast → Reykjavik",
+      "activities": [
+        "🌸 Drive through lupine flower fields (peak season!)",
+        "💧 Seljalandsfoss waterfall (walk behind it)",
+        "🌊 Skógafoss waterfall (powerful 60m drop)",
+        "🏔️ Views of Eyjafjallajökull glacier volcano",
+        "🖤 Reynisfjara black sand beach",
+        "🪨 Reynisdrangar sea stacks (basalt columns)",
+        "🐧 Dyrhólaey arch (puffin watching if lucky)",
+        "🍽️ Seafood dinner back in Reykjavik"
+      ],
+      "schedule": {
+        "08:00": "Depart Reykjavik",
+        "10:00": "Seljalandsfoss waterfall",
+        "11:30": "Skógafoss waterfall",
+        "13:00": "Lunch in Vík village",
+        "14:30": "Reynisfjara black beach",
+        "16:00": "Dyrhólaey arch viewpoint",
+        "17:30": "Begin return to Reykjavik",
+        "19:30": "Arrive Reykjavik"
+      },
+      "highlights": [
+        "Purple lupine flowers covering the landscape",
+        "Walk behind Seljalandsfoss waterfall",
+        "Dramatic black volcanic sand beach",
+        "Powerful Atlantic waves crashing on beach",
+        "Possible puffin sightings at Dyrhólaey"
+      ]
+    },
+    "2025-07-05": { 
+      "type": "iceland", 
+      "activity": "Free Day", 
+      "city": "Reykjavik", 
+      "flag": "🇮🇸",
+      "details": "Museums • Shopping",
+      "detailTitle": "Reykjavik Free Day - July 5th",
+      "location": "Reykjavik, Iceland 🇮🇸",
+      "activities": [
+        "🏛️ National Museum of Iceland",
+        "⛪ Visit iconic Hallgrímskirkja church",
+        "🛍️ Shopping on Laugavegur street",
+        "🎨 Street art and murals tour",
+        "☕ Café culture - try Icelandic coffee",
+        "🐋 Optional whale watching tour",
+        "🍽️ Try unique Icelandic foods (fermented shark?)",
+        "🌅 Sunset from Perlan observation deck"
+      ],
+      "flexible_options": [
+        "Whale watching from Reykjavik harbor",
+        "Visit to Reykjavik Art Museum",
+        "Soak at Laugardalslaug public pool",
+        "Day trip to Snæfellsnes Peninsula",
+        "Northern Lights Museum (if interested)",
+        "Shopping for Icelandic wool sweaters"
+      ]
+    },
+    "2025-07-06": { 
+      "type": "travel", 
+      "activity": "Reykjavik → Boston", 
+      "city": "", 
+      "icon": "✈️",
+      "route": "KEF → BOS",
+      "fromFlag": "🇮🇸",
+      "toFlag": "🇺🇸",
+      "detailTitle": "Departure Day - July 6th",
+      "location": "Reykjavik → Boston",
+      "activities": [
+        "🏨 Check out of Reykjavik hotel",
+        "🚌 Flybus to Keflavik Airport",
+        "🛍️ Last-minute shopping at airport duty-free",
+        "✈️ Flight home to Boston",
+        "🏠 Arrive home with amazing memories",
+        "📱 Share photos and stories with friends"
+      ],
+      "schedule": {
+        "10:00": "Final packing and hotel checkout",
+        "11:00": "Flybus to Keflavik Airport",
+        "12:30": "Arrive at airport, check-in",
+        "14:00": "Security and duty-free shopping",
+        "15:30": "Board flight to Boston",
+        "21:00": "Arrive Boston Logan (local time)"
+      }
+    }
+  },
+
+  "checklists": {
+    "flights": [
+      { "id": "flight1", "text": "Boston → Paris (June 20 night flight)", "status": "pending" },
+      { "id": "flight2", "text": "Paris → Stockholm (June 23 morning)", "status": "pending" },
+      { "id": "flight3", "text": "Stockholm → Oslo (June 26)", "status": "pending" },
+      { "id": "flight4", "text": "Oslo → Copenhagen (June 28)", "status": "pending" },
+      { "id": "flight5", "text": "Copenhagen → Bergen (June 30)", "status": "pending" },
+      { "id": "flight6", "text": "Bergen → Reykjavik (July 2)", "status": "pending" },
+      { "id": "flight7", "text": "Reykjavik → Boston (July 6)", "status": "pending" }
+    ],
+    "accommodations": [
+      { "id": "acc1", "text": "Paris: 2 nights (June 21-23)", "status": "pending" },
+      { "id": "acc2", "text": "Stockholm: 3 nights (June 23-26)", "status": "pending" },
+      { "id": "acc3", "text": "Oslo: 2 nights (June 26-28)", "status": "pending" },
+      { "id": "acc4", "text": "Copenhagen: 2 nights (June 28-30)", "status": "pending" },
+      { "id": "acc5", "text": "Bergen: 2 nights (June 30-July 2)", "status": "pending" },
+      { "id": "acc6", "text": "Reykjavik: 4 nights (July 2-6)", "status": "pending" }
+    ],
+    "tours": [
+      { "id": "tour1", "text": "Stockholm: Vasa Museum tickets", "status": "pending" },
+      { "id": "tour2", "text": "Bergen: 'Norway in a Nutshell' fjord tour (July 1)", "status": "pending", "priority": true },
+      { "id": "tour3", "text": "Iceland: Golden Circle day tour (July 3)", "status": "pending" },
+      { "id": "tour4", "text": "Iceland: South Coast tour (July 4)", "status": "pending" },
+      { "id": "tour5", "text": "Blue Lagoon Iceland (July 3 evening) - MUST book in advance", "status": "pending", "priority": true }
+    ],
+    "preparation": [
+      { "id": "prep1", "text": "Check passport expiration (needs 6+ months validity)", "status": "pending", "priority": true },
+      { "id": "prep2", "text": "Notify banks of travel to avoid card blocks", "status": "pending" },
+      { "id": "prep3", "text": "Download offline maps for all cities", "status": "pending" },
+      { "id": "prep4", "text": "Pack universal power adapter (Type C for Europe)", "status": "pending" },
+      { "id": "prep5", "text": "Get travel insurance", "status": "pending", "priority": true },
+      { "id": "prep6", "text": "Check weather forecasts and pack accordingly", "status": "pending" }
+    ]
+  }
+} 
