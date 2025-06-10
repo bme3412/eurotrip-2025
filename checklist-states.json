@@ -1,4 +1,15 @@
 {
-  "accommodation-0": false,
-  "flight-0": false
+  "accommodation-0": true,
+  "flight-0": true,
+  "flight-6": true,
+  "flight-1": true,
+  "accommodation-1": true,
+  "flight-2": true,
+  "flight-3": true,
+  "accommodation-3": true,
+  "accommodation-4": true,
+  "accommodation-2": true,
+  "flight-4": true,
+  "flight-5": true,
+  "accommodation-5": true
 }

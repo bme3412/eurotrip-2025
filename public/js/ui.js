@@ -208,28 +208,85 @@ function showModal(dateStr) {
 
     let content = '';
 
-    // Flight Details
-    if (data.flightDetails) {
-        content += renderSection('✈️ Flight Details', [data.flightDetails], item => `
-            <div class="detail-item">
-                <p><strong>Departure:</strong> ${item.departure}</p>
-                <p><strong>Arrival:</strong> ${item.arrival}</p>
-                <p><strong>Flight Time:</strong> ${item.flightTime}</p>
-                ${item.timeChange ? `<p><strong>Time Change:</strong> ${item.timeChange}</p>` : ''}
-                ${item.arrivalDate ? `<p><strong>Arrival Date:</strong> ${item.arrivalDate}</p>` : ''}
-            </div>
-        `);
+    // Accommodation from accommodationDetails (via accommodationRef)
+    if (window.tripData && window.tripData.accommodationDetails && data.accommodationRef) {
+        const acc = window.tripData.accommodationDetails[data.accommodationRef];
+        if (acc && acc.name) {
+            content += `
+                <div class="modal-section modal-accommodation">
+                  <h3>🏨 Accommodation</h3>
+                  <p><strong>${acc.name}</strong></p>
+                  <p>${acc.address}</p>
+                  ${acc.googleMaps ? `<p><a href="${acc.googleMaps}" target="_blank">Google Maps</a></p>` : ''}
+                  <ul>
+                    ${acc.checkIn ? `<li><strong>Check-in:</strong> ${acc.checkIn}</li>` : ''}
+                    ${acc.checkOut ? `<li><strong>Check-out:</strong> ${acc.checkOut}</li>` : ''}
+                    ${acc.entranceCode ? `<li><strong>Entrance code:</strong> ${acc.entranceCode}</li>` : ''}
+                    ${acc.keyInstructions ? `<li><strong>Key instructions:</strong> ${acc.keyInstructions}</li>` : ''}
+                    ${acc.nearestSubway ? `<li><strong>Nearest subway:</strong> ${acc.nearestSubway}${acc.subwayLink ? ` (<a href='${acc.subwayLink}' target='_blank'>SL</a>)` : ''}</li>` : ''}
+                    ${(acc.wifi && acc.wifi.ssid) ? `<li><strong>Wi-Fi:</strong> ${acc.wifi.ssid} / ${acc.wifi.password}</li>` : ''}
+                  </ul>
+                </div>
+            `;
+        }
     }
 
-    // Accommodation
-    if (data.accommodation) {
-        content += renderSection('🏨 Accommodation', [data.accommodation], item => `
-            <div class="detail-item">
-                <p><strong>${item.name}</strong></p>
-                <p>${item.address}</p>
-                ${item.area ? `<p><em>${item.area}</em></p>`: ''}
+    // Flight Details
+    if (data.flightDetails) {
+        // Extract short airport codes
+        const departureCodeMatch = data.flightDetails.departure.airport.match(/\(([^)]+)\)/);
+        const arrivalCodeMatch = data.flightDetails.arrival.airport.match(/\(([^)]+)\)/);
+        const departureCode = departureCodeMatch ? departureCodeMatch[1] : '';
+        const arrivalCode = arrivalCodeMatch ? arrivalCodeMatch[1] : '';
+
+        content += `
+            <div class="modal-section modal-flight-details-v2">
+                <div class="flight-summary">
+                    <span class="airline">${data.flightDetails.airline}</span>
+                    <span class="flight-number">Flight ${data.flightDetails.flightNumber}</span>
+                </div>
+
+                <div class="flight-journey">
+                    <div class="journey-point departure-point">
+                        <div class="airport-code">${departureCode}</div>
+                        <div class="airport-name">${data.flightDetails.departure.airport.replace(/\s*\([^)]+\)/, '')}</div>
+                        <div class="flight-time">${data.flightDetails.departure.date}, ${data.flightDetails.departure.time}</div>
+                    </div>
+                    <div class="journey-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-icon">✈️</div>
+                    </div>
+                    <div class="journey-point arrival-point">
+                        <div class="airport-code">${arrivalCode}</div>
+                        <div class="airport-name">${data.flightDetails.arrival.airport.replace(/\s*\([^)]+\)/, '')}</div>
+                        <div class="flight-time">${data.flightDetails.arrival.date}, ${data.flightDetails.arrival.time}</div>
+                    </div>
+                </div>
+
+                <div class="flight-meta-details">
+                    <div class="meta-item">
+                        <span class="meta-icon">⏱️</span>
+                        <span class="meta-label">Duration</span>
+                        <span class="meta-value">${data.flightDetails.flightInfo.duration}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">💺</span>
+                        <span class="meta-label">Seat</span>
+                        <span class="meta-value">${data.flightDetails.flightInfo.seat}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">🏷️</span>
+                        <span class="meta-label">Fare Class</span>
+                        <span class="meta-value">${data.flightDetails.flightInfo.fareClass}</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">🚪</span>
+                        <span class="meta-label">Terminal</span>
+                        <span class="meta-value">${data.flightDetails.departure.terminal}</span>
+                    </div>
+                </div>
             </div>
-        `);
+        `;
     }
 
     // Scheduled Activities

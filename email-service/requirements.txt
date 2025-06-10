@@ -1,0 +1,5 @@
+yagmail==0.15.293
+schedule==1.2.0
+python-dotenv==1.0.0
+jinja2==3.1.2
+pytz==2023.3

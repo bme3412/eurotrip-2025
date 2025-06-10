@@ -1,0 +1,167 @@
+/* Modal Content */
+.modal-content {
+    padding: 2rem 2.5rem;
+}
+
+/* New flight details styles */
+.modal-flight-details-v2 {
+    background-color: #f7f8fc;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.flight-summary {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.flight-summary .airline {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.flight-summary .flight-number {
+    font-size: 1rem;
+    color: #667;
+    margin-left: 0.5rem;
+}
+
+.flight-journey {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.journey-point {
+    flex: 1;
+    text-align: center;
+}
+
+.journey-point .airport-code {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #007bff;
+}
+
+.journey-point .airport-name {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.25rem;
+}
+
+.journey-point .flight-time {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+.journey-connector {
+    flex: 0 1 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.journey-connector .connector-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ced4da;
+}
+
+.journey-connector .connector-icon {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin: 0 0.5rem;
+    transform: translateY(-2px);
+}
+
+.flight-meta-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #e8eaf6;
+}
+
+.meta-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.meta-label {
+    font-size: 0.85rem;
+    color: #667;
+    font-weight: 500;
+}
+
+.meta-value {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .flight-journey {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .journey-connector {
+        transform: rotate(90deg);
+        flex: 0 1 50px;
+        margin: 1rem 0;
+    }
+    .flight-meta-details {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.detail-item p {
+    margin: 0.3rem 0;
+}
+
+/* Cleanup old styles to avoid conflicts */
+.modal-flight-details, .flight-info-grid, .flight-airline-info, .flight-card, .flight-section-header, .flight-section-body, .flight-detail-row, .flight-label, .flight-value, .flight-icon, .flight-departure, .flight-arrival, .flight-info {
+    /* This is not a perfect solution for removal, but will disable most of the old styles */
+    all: unset;
+}
+
+@media (max-width: 800px) {
+  .modal-content.itinerary-modal {
+    max-width: 98vw;
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+  }
+  .modal-flight-details {
+    padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+  }
+  .flight-info-grid {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  .flight-card {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* Modal size and padding improvements */
+.modal-content.itinerary-modal {
+    max-width: 700px;
+    width: 95vw;
+    min-width: 350px;
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+} 

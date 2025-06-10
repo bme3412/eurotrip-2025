@@ -43,19 +43,33 @@
       "detailTitle": "Departure Day - June 20th",
       "location": "Boston Logan (BOS) → Paris Charles de Gaulle (CDG)",
       "flightDetails": {
-        "departure": "Boston Logan International Airport (BOS)",
-        "arrival": "Paris Charles de Gaulle Airport (CDG)",
-        "flightTime": "~7 hours overnight",
-        "timeChange": "+6 hours ahead",
-        "arrivalDate": "June 21st morning"
+        "airline": "JetBlue",
+        "flightNumber": "33",
+        "confirmationCode": "IOOYUB",
+
+        "departure": {
+          "airport": "Boston Logan International Airport (BOS)",
+          "time": "8:15 PM",
+          "terminal": "C",
+          "date": "June 20th"
+        },
+        "arrival": {
+          "airport": "Paris Charles de Gaulle Airport (CDG)",
+          "time": "9:15 AM",
+          "date": "June 21st"
+        },
+        "flightInfo": {
+          "duration": "~7 hours overnight",
+          "timeChange": "+6 hours ahead",
+          "fareClass": "Blue Basic",
+          "seat": "13C"
+        }
       },
       "activities": [
         "🧳 Final packing check - travel documents, chargers, medications",
         "📱 Download offline maps for Paris",
-        "✈️ Check-in online 24 hours before departure",
-        "🚗 Arrange transportation to Logan Airport",
-        "🌙 Overnight transatlantic flight - try to sleep on plane",
-        "⏰ Set watch to Paris time during flight"
+        "✈️ Check-in online 24 hours before departure"
+
       ]
     },
     "2025-06-21": { 
@@ -299,21 +313,23 @@
         "✈️ Flight to Stockholm (2.5 hours)",
         "🛬 Arrive at Stockholm Arlanda Airport",
         "🚄 Take Arlanda Express to Stockholm Central (20 mins)",
-        "🏨 Check into Stockholm hotel",
+        "🏠 Go to apartment (see details below)",
+        "🔑 Use entrance code and key box as instructed",
         "🌆 Evening stroll around Gamla Stan (Old Town)",
         "🍽️ Welcome dinner at traditional Swedish restaurant"
       ],
       "schedule": {
-        "08:00": "Final packing and hotel checkout",
+        "08:00": "Final packing and Paris apartment checkout",
         "09:00": "RER B train to CDG Airport",
         "10:30": "Airport check-in and security",
         "11:30": "Flight departure to Stockholm",
         "14:00": "Arrive Stockholm (local time)",
         "15:00": "Arlanda Express to city center",
-        "16:00": "Check into Stockholm hotel",
+        "16:00": "Arrive at apartment, check-in (after 15:00)",
         "17:30": "Explore Gamla Stan neighborhood",
         "19:00": "Traditional Swedish dinner"
-      }
+      },
+      "accommodationRef": "stockholm"
     },
     "2025-06-24": { 
       "type": "sweden", 
@@ -323,26 +339,20 @@
       "details": "Old Town • Södermalm",
       "detailTitle": "Stockholm Old Town - June 24th",
       "location": "Stockholm, Sweden 🇸🇪",
-      "accommodation": {
-        "name": "HTL Kungsgatan",
-        "address": "Kungsgatan 47, 111 56 Stockholm, Sweden",
-        "area": "Norrmalm - 5 minutes walk to Gamla Stan",
-        "amenities": ["Free WiFi", "Fitness Center", "Restaurant", "24h Reception"]
-      },
       "scheduledActivities": [
         {
           "time": "9:00 AM",
-          "activity": "Swedish breakfast at hotel",
+          "activity": "Breakfast at apartment",
           "icon": "🥐",
           "duration": "45 minutes",
-          "location": "HTL Kungsgatan restaurant"
+          "location": "Apartment"
         },
         {
           "time": "10:00 AM",
           "activity": "Walk to Gamla Stan",
           "icon": "🚶‍♂️",
           "duration": "15 minutes",
-          "location": "Cross Riksbron bridge to Old Town"
+          "location": "Gamla Stan"
         },
         {
           "time": "10:30 AM",
@@ -449,7 +459,7 @@
       ],
       "transportation": [
         {
-          "route": "Hotel → Gamla Stan",
+          "route": "Apartment → Gamla Stan",
           "method": "Walking",
           "duration": "15 minutes",
           "description": "Scenic walk across Riksbron bridge"
@@ -466,7 +476,8 @@
         "Many shops close early on Sundays",
         "Fika is serious business in Sweden - take time to enjoy it",
         "Wear comfortable shoes for cobblestone streets"
-      ]
+      ],
+      "accommodationRef": "stockholm"
     },
     "2025-06-25": { 
       "type": "sweden", 
@@ -484,7 +495,8 @@
         "🏰 Skansen open-air museum and zoo",
         "🎨 ABBA Museum (if interested)",
         "🌳 Picnic lunch in Djurgården park",
-        "🍽️ Dinner at waterfront restaurant"
+        "🍽️ Dinner at waterfront restaurant",
+        "🏠 Return to apartment"
       ],
       "attractions": [
         {
@@ -497,7 +509,8 @@
           "time": "1:00 PM - 5:00 PM",
           "highlights": "Historic buildings, Nordic animals, traditional crafts"
         }
-      ]
+      ],
+      "accommodationRef": "stockholm"
     },
     "2025-06-26": { 
       "type": "travel-sweden-norway", 
@@ -524,7 +537,8 @@
         "🏨 Check into Oslo hotel",
         "🌆 Evening walk around Karl Johans gate",
         "🍽️ Norwegian dinner - try reindeer or salmon"
-      ]
+      ],
+      "accommodationRef": "oslo"
     },
     "2025-06-27": { 
       "type": "norway", 
@@ -555,7 +569,8 @@
           "time": "2:00 PM - 4:00 PM",
           "highlights": "Stunning architecture, panoramic city views"
         }
-      ]
+      ],
+      "accommodationRef": "oslo"
     },
     "2025-06-28": { 
       "type": "travel-norway-denmark", 
@@ -572,7 +587,8 @@
         "🏨 Check into Copenhagen hotel",
         "🚲 Get oriented with bike rental",
         "🌆 Evening canal walk in Nyhavn"
-      ]
+      ],
+      "accommodationRef": "copenhagen"
     },
     "2025-06-29": { 
       "type": "denmark", 
@@ -597,7 +613,8 @@
           "time": "10:00 AM - 4:00 PM",
           "highlights": "Modern art, sculpture garden, sea views"
         }
-      ]
+      ],
+      "accommodationRef": "copenhagen"
     },
     "2025-06-30": { 
       "type": "travel-denmark-norway", 
@@ -614,7 +631,8 @@
         "🏨 Check into Bergen hotel",
         "🌧️ Explore Bergen despite potential rain",
         "🎣 Evening at fish market and Bryggen wharf"
-      ]
+      ],
+      "accommodationRef": "bergen"
     },
     "2025-07-01": { 
       "type": "norway", 
@@ -778,7 +796,8 @@
         "Ferry can be cold and windy - pack windproof jacket",
         "Flåm Railway stops at Kjosfossen waterfall for photos",
         "Download offline maps - cell service spotty in mountains"
-      ]
+      ],
+      "accommodationRef": "bergen"
     },
     "2025-07-02": { 
       "type": "travel-norway-iceland", 
@@ -796,7 +815,8 @@
         "🏨 Check into Reykjavik accommodation",
         "🌈 First taste of dramatic Icelandic landscapes",
         "🍽️ Welcome dinner - try Icelandic lamb or fish"
-      ]
+      ],
+      "accommodationRef": "reykjavik"
     },
     "2025-07-03": { 
       "type": "iceland", 
@@ -832,7 +852,8 @@
         "Watch Strokkur geyser erupt every 5-10 minutes",
         "Feel the power of Gullfoss two-tier waterfall",
         "Relax in 37-39°C geothermal waters at Blue Lagoon"
-      ]
+      ],
+      "accommodationRef": "reykjavik"
     },
     "2025-07-04": { 
       "type": "iceland", 
@@ -868,7 +889,8 @@
         "Dramatic black volcanic sand beach",
         "Powerful Atlantic waves crashing on beach",
         "Possible puffin sightings at Dyrhólaey"
-      ]
+      ],
+      "accommodationRef": "reykjavik"
     },
     "2025-07-05": { 
       "type": "iceland", 
@@ -895,7 +917,8 @@
         "Day trip to Snæfellsnes Peninsula",
         "Northern Lights Museum (if interested)",
         "Shopping for Icelandic wool sweaters"
-      ]
+      ],
+      "accommodationRef": "reykjavik"
     },
     "2025-07-06": { 
       "type": "travel", 
@@ -922,7 +945,8 @@
         "14:00": "Security and duty-free shopping",
         "15:30": "Board flight to Boston",
         "21:00": "Arrive Boston Logan (local time)"
-      }
+      },
+      "accommodationRef": "reykjavik"
     }
   },
 
@@ -959,5 +983,98 @@
       { "id": "prep5", "text": "Get travel insurance", "status": "pending", "priority": true },
       { "id": "prep6", "text": "Check weather forecasts and pack accordingly", "status": "pending" }
     ]
+  },
+
+  "accommodationDetails": {
+    "stockholm": {
+      "name": "Skeppar Karls gränd Apartment",
+      "address": "Skeppar Karls gränd 4, 111 30 Stockholm",
+      "googleMaps": "https://g.co/kgs/5eSRkn9",
+      "entranceCode": "5892",
+      "keyInstructions": "Second floor in the courtyard. Go right before the steps, stairs in inner courtyard to 2nd floor. Door has name. Key in key box attached to railway. Code: 1878.",
+      "nearestSubway": "Gamla stan",
+      "subwayLink": "https://sl.se",
+      "checkIn": "15:00",
+      "checkOut": "11:00",
+      "wifi": {
+        "ssid": "3bredband-7E15",
+        "password": "ddjDC#Cn+e"
+      }
+    },
+    "paris": {
+      "name": "",
+      "address": "",
+      "googleMaps": "",
+      "entranceCode": "",
+      "keyInstructions": "",
+      "nearestSubway": "",
+      "subwayLink": "",
+      "checkIn": "",
+      "checkOut": "",
+      "wifi": {
+        "ssid": "",
+        "password": ""
+      }
+    },
+    "oslo": {
+      "name": "",
+      "address": "",
+      "googleMaps": "",
+      "entranceCode": "",
+      "keyInstructions": "",
+      "nearestSubway": "",
+      "subwayLink": "",
+      "checkIn": "",
+      "checkOut": "",
+      "wifi": {
+        "ssid": "",
+        "password": ""
+      }
+    },
+    "copenhagen": {
+      "name": "",
+      "address": "",
+      "googleMaps": "",
+      "entranceCode": "",
+      "keyInstructions": "",
+      "nearestSubway": "",
+      "subwayLink": "",
+      "checkIn": "",
+      "checkOut": "",
+      "wifi": {
+        "ssid": "",
+        "password": ""
+      }
+    },
+    "bergen": {
+      "name": "",
+      "address": "",
+      "googleMaps": "",
+      "entranceCode": "",
+      "keyInstructions": "",
+      "nearestSubway": "",
+      "subwayLink": "",
+      "checkIn": "",
+      "checkOut": "",
+      "wifi": {
+        "ssid": "",
+        "password": ""
+      }
+    },
+    "reykjavik": {
+      "name": "",
+      "address": "",
+      "googleMaps": "",
+      "entranceCode": "",
+      "keyInstructions": "",
+      "nearestSubway": "",
+      "subwayLink": "",
+      "checkIn": "",
+      "checkOut": "",
+      "wifi": {
+        "ssid": "",
+        "password": ""
+      }
+    }
   }
 } 

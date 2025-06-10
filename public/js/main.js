@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 async function initializeApp() {
     try {
         const tripData = await getTripData();
+        window.tripData = tripData; // Make tripData globally accessible
         
         generateCalendar(tripData.timeline);
         populateChecklists(tripData.checklists);
